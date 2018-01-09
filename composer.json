@@ -1,0 +1,30 @@
+{
+  "name": "penance316/laravel-base64-validator",
+  "description": "laravel base64 validation package",
+  "keywords": [
+    "laravel",
+    "base64",
+    "encode",
+    "validator"
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "illuminate/support": ">=5.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=4.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nero Denney",
+      "email": "penance316@gmail.com",
+      "homepage": "https://nerodenney.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Penance316\\Validators\\": "src"
+    }
+  }
+}
